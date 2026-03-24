@@ -65,7 +65,7 @@ export default function ReferralShare({ spotId }: ReferralShareProps) {
   if (!isConnected) {
     return (
       <div className="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
-        Please connect your wallet to share spots
+        Please connect your wallet to share s
       </div>
     );
   }
@@ -142,4 +142,7 @@ export default function ReferralShare({ spotId }: ReferralShareProps) {
     </div>
   );
 }
+
+
+
 

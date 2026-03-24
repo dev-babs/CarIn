@@ -5,7 +5,7 @@ This guide explains how to set up Reown AppKit (formerly WalletConnect) for the 
 ## Prerequisites
 
 - Node.js 18+ installed
-- A WalletConnect Cloud account (free at https://cloud.reown.com)
+- A WalletConnect Cloud account (free at https://c
 
 ## Setup Steps
 
@@ -13,15 +13,12 @@ This guide explains how to set up Reown AppKit (formerly WalletConnect) for the 
 
 1. Go to [Reown Cloud](https://cloud.reown.com) and sign in (or create an account)
 2. Create a new project or select an existing one
-3. Copy your **Project ID** from the project dashboard
-
-### 2. Configure Environment Variables
+3. 
 
 Create a `.env.local` file in the `frontend/` directory:
 
 ```bash
-# WalletConnect / Reown AppKit Configuration
-NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_project_id_here
+# WalletConnect / Reown AppONNECT_PROJECT_ID=your_project_id_here
 
 # Celo Network Configuration
 NEXT_PUBLIC_CELO_RPC_URL=https://alfajores-forno.celo-testnet.org

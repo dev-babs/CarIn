@@ -66,3 +66,6 @@ export default function MapPicker({ onLocationSelect, selectedLocation }: MapPic
   );
 }
 
+
+
+

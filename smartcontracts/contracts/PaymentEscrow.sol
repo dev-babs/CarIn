@@ -522,6 +522,15 @@ contract PaymentEscrow is Ownable, ReentrancyGuard {
     }
 
     /**
+     * @dev Get dispute by escrow ID
+     */
+    function getDisputeByEscrowId(uint256 escrowId) external view returns (Dispute memory) {
+        uint256 disputeId = escrowToDispute[escrowId];
+        require(disputeId != 0, "No dispute found for escrow");
+        return disputes[disputeId];
+    }
+
+    /**
      * @dev Update default expiration period (owner only)
      */
     function setDefaultExpirationPeriod(uint256 _period) external onlyOwner {

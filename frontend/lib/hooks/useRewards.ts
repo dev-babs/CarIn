@@ -2,11 +2,11 @@ import { useState, useEffect, useCallback } from "react";
 import { useAccount, usePublicClient, useWalletClient } from "wagmi";
 import { ethers } from "ethers";
 import {
-  getRewardsTokenContract,
   getRewardsManagerContract,
   RewardType,
   calculateReferralHash,
 } from "../contracts/rewardsManager";
+import { getRewardsTokenContract } from "../contracts/rewardsToken";
 
 interface RewardBalance {
   balance: string;
@@ -348,4 +348,7 @@ export function useReferrals() {
 
   return { referrals, loading, createReferral, loadReferrals };
 }
+
+
+
 

@@ -9,10 +9,12 @@
     "test:escrow": "hardhat test test/PaymentEscrow*.test.js",
     "test:rewards": "hardhat test test/Rewards*.test.js",
     "test:rewards:integration": "hardhat test test/RewardsIntegration.test.js",
+    "test:disputes": "hardhat test test/DisputeResolution*.test.js",
     "test:coverage": "hardhat coverage",
     "deploy:alfajores": "hardhat run scripts/deploy.js --network alfajores",
     "deploy:celo": "hardhat run scripts/deploy.js --network celo",
     "deploy:escrow:alfajores": "hardhat run scripts/deploy-escrow.js --network alfajores",
+    "deploy:dispute:alfajores": "hardhat run scripts/deploy-dispute-resolution.js --network alfajores",
     "verify": "hardhat verify",
     "lint": "solhint 'contracts/**/*.sol'"
   },

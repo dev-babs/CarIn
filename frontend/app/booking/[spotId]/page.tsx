@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import WalletConnect from "@/components/WalletConnect";
 import BookingFlow from "@/components/booking/BookingFlow";
 import SpotDetails from "@/components/booking/SpotDetails";
+import { BookingLoading } from "@/components/booking/LoadingStates";
 
 export default function BookingPage() {
   const params = useParams();
@@ -94,4 +95,3 @@ export default function BookingPage() {
     </BookingErrorBoundary>
   );
 }
-

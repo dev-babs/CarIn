@@ -2,7 +2,7 @@
 
 Frontend application for CarIn - Decentralized parking spot booking platform.
 
-## Tech Stack
+## 
 
 - **Framework**: Next.js 14 with App Router
 - **Language**: TypeScript
@@ -37,4 +37,7 @@ npm run dev
 - Booking system with QR codes
 - Owner dashboard
 - Mobile-first responsive design
+
+
+
 

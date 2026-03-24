@@ -83,7 +83,7 @@ export default function RewardHistory() {
 
       {/* Referrals History */}
       <div className="bg-white rounded-lg shadow p-6">
-        <h2 className="text-xl font-semibold mb-4">Referral History</h2>
+        <h2 className="text-xl font-semibold mb-4">Referral Histories</h2>
         {referrals.length === 0 ? (
           <p className="text-gray-600">No referrals created yet</p>
         ) : (

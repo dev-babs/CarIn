@@ -122,3 +122,6 @@ export default function EditSpotModal({ spot, onClose, onUpdated }: EditSpotModa
   );
 }
 
+
+
+

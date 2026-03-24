@@ -25,3 +25,8 @@ export function isNetworkSupported(chainId: number): boolean {
   return Object.values(NETWORKS).some(network => network.chainId === chainId);
 }
 
+export const DISPUTE_RESOLUTION_ADDRESSES = {
+  alfajores: process.env.NEXT_PUBLIC_DISPUTE_RESOLUTION_ADDRESS_ALFAJORES || "",
+  celo: process.env.NEXT_PUBLIC_DISPUTE_RESOLUTION_ADDRESS_CELO || "",
+};
+

@@ -1,0 +1,886 @@
+{
+  "app\\page.tsx -> @/components/map/MapView": {
+    "id": 60319,
+    "files": [
+      "static/chunks/d0deef33.0379166a4ec23470.js",
+      "static/chunks/319.da60cadf1434690f.js"
+    ]
+  },
+  "components\\map\\MapView.tsx -> ./MapContainer": {
+    "id": 62241,
+    "files": [
+      "static/css/fc1c9daac70c093b.css",
+      "static/chunks/2241.7fe485087c7b274c.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-adapter-wagmi\\dist\\esm\\src\\utils\\helpers.js -> @wagmi/connectors": {
+    "id": 33326,
+    "files": [
+      "static/chunks/3326.cffefb3dee6c4d0c.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-adapter-wagmi\\node_modules\\@wagmi\\connectors\\dist\\esm\\baseAccount.js -> @base-org/account": {
+    "id": 74324,
+    "files": [
+      "static/chunks/846-581a3df87add5941.js",
+      "static/chunks/8332-dfab188c89f6de1d.js",
+      "static/chunks/7895.60e7b58d352b820a.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-adapter-wagmi\\node_modules\\@wagmi\\connectors\\dist\\esm\\coinbaseWallet.js -> @coinbase/wallet-sdk": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@reown\\appkit-adapter-wagmi\\node_modules\\@wagmi\\connectors\\dist\\esm\\gemini.js -> @gemini-wallet/core": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@reown\\appkit-adapter-wagmi\\node_modules\\@wagmi\\connectors\\dist\\esm\\metaMask.js -> @metamask/sdk": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@reown\\appkit-adapter-wagmi\\node_modules\\@wagmi\\connectors\\dist\\esm\\porto.js -> porto": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@reown\\appkit-adapter-wagmi\\node_modules\\@wagmi\\connectors\\dist\\esm\\porto.js -> porto/internal": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@reown\\appkit-adapter-wagmi\\node_modules\\@wagmi\\connectors\\dist\\esm\\safe.js -> @safe-global/safe-apps-provider": {
+    "id": 97353,
+    "files": [
+      "static/chunks/2181.879c7cea39e9112f.js",
+      "static/chunks/7353.04a39413462e94b8.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-adapter-wagmi\\node_modules\\@wagmi\\connectors\\dist\\esm\\safe.js -> @safe-global/safe-apps-sdk": {
+    "id": 74946,
+    "files": [
+      "static/chunks/2181.879c7cea39e9112f.js",
+      "static/chunks/4946.1ccfccafc680a298.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-adapter-wagmi\\node_modules\\@wagmi\\connectors\\dist\\esm\\walletConnect.js -> @walletconnect/ethereum-provider": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@reown\\appkit-controllers\\dist\\esm\\src\\utils\\ViemUtil.js -> viem": {
+    "id": 47857,
+    "files": [
+      "static/chunks/846-581a3df87add5941.js",
+      "static/chunks/8332-dfab188c89f6de1d.js",
+      "static/chunks/7857.7035f3d8540cb099.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhArrowCircleDown": {
+    "id": 72656,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/2656.d343e9ac9b094bec.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhArrowClockwise": {
+    "id": 48145,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/8145.869f872c68e4027f.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhArrowDown": {
+    "id": 61222,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/1222.cd19409b55e4761d.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhArrowLeft": {
+    "id": 60851,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/851.25eeddf2d58e27ae.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhArrowRight": {
+    "id": 3529,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/3529.3c45e6d75a0099b7.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhArrowSquareOut": {
+    "id": 92080,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/2080.0a4ad3526a695fa0.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhArrowUp": {
+    "id": 92103,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/2103.5c09694c154d63b7.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhArrowUpRight": {
+    "id": 74278,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/4278.32a097a4a046b144.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhArrowsClockwise": {
+    "id": 40687,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/687.8ae173c7b8f95af6.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhArrowsDownUp": {
+    "id": 38257,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/8257.85db10780638e796.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhArrowsLeftRight": {
+    "id": 44156,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/4156.99eb5ef9a3a7db6b.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhBank": {
+    "id": 32381,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/2381.99b49ec0de0ecc07.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhBrowser": {
+    "id": 65370,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/5370.40f093982f3433dd.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhCaretDown": {
+    "id": 74653,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/4653.8fb9eeb0b101872e.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhCaretLeft": {
+    "id": 27550,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/7550.52bc17f39c020f0e.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhCaretRight": {
+    "id": 4324,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/4324.2d21e6e94d240f5a.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhCaretUp": {
+    "id": 8213,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/8213.ce0cd878f7af2dfc.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhCheck": {
+    "id": 25957,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/5957.3e389379b1ac5186.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhCircleHalf": {
+    "id": 64792,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/4792.4375898a5363bf32.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhClock": {
+    "id": 67107,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/7107.e6fa05964563ed52.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhCompass": {
+    "id": 11414,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/1414.7a19581128bac08d.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhCopy": {
+    "id": 83631,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/3631.449c8eaa27256fb6.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhCreditCard": {
+    "id": 43869,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/3869.b25c967665cf8d84.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhCurrencyDollar": {
+    "id": 17076,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/7076.4908ec83929a649c.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhDesktop": {
+    "id": 18426,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/8426.3f6fba98a8b37036.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhDeviceMobile": {
+    "id": 9984,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/9984.9143581f48043503.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhDotsThree": {
+    "id": 4931,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/4931.563d35ad17647dc0.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhEnvelope": {
+    "id": 65988,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/5988.23cfd2cfcc8815ae.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhFunnelSimple": {
+    "id": 21078,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/1078.156b2c5a8f45f240.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhGlobe": {
+    "id": 98592,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/8592.f05cc9e6663ab7b0.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhIdentificationCard": {
+    "id": 23124,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/3124.1a3770a9aaaf9cfc.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhImage": {
+    "id": 75857,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/5857.9b39683897969c57.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhInfo": {
+    "id": 71086,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/1086.835f6d3c18c91f75.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhLightbulb": {
+    "id": 45851,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/5851.3380ed20e0153f1f.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhMagnifyingGlass": {
+    "id": 83314,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/3314.6a9f8d33ba7ef171.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhPaperPlaneRight": {
+    "id": 70169,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/169.fb7afe3a66917fd8.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhPlus": {
+    "id": 50131,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/131.271fc803433a0511.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhPower": {
+    "id": 53664,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/3664.436d19ee6e4d69b6.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhPuzzlePiece": {
+    "id": 33298,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/3298.d670408e0ef18a68.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhQrCode": {
+    "id": 86554,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/6554.7b6ca0e260079172.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhQuestion": {
+    "id": 50375,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/375.46d771727ecb7b8d.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhQuestionMark": {
+    "id": 35779,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/5779.cccde6676cacf91f.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhSealCheck": {
+    "id": 63049,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/9365.33fd392ca47b0dac.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhSignOut": {
+    "id": 98406,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/8406.3b5b9d57e237e264.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhSpinner": {
+    "id": 37759,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/7759.b32ff100e61b9e4e.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhTrash": {
+    "id": 49504,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/9504.e446f47ea8377b76.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhUser": {
+    "id": 17941,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/7941.f53ba4396375d65a.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhVault": {
+    "id": 32464,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/2464.d65b51956fb7a993.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhWallet": {
+    "id": 76792,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/6792.4df44eab8baa0a52.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhWarning": {
+    "id": 8971,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/8971.b53a598d17200600.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhWarningCircle": {
+    "id": 2947,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/2947.eb856c7b9a09bd13.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> @phosphor-icons/webcomponents/PhX": {
+    "id": 98022,
+    "files": [
+      "static/chunks/790.2d212f48acdb6fec.js",
+      "static/chunks/8022.a095b1e5f9fa6d81.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit\\dist\\esm\\src\\client\\appkit-base-client.js -> @reown/appkit-controllers/features": {
+    "id": 63520,
+    "files": [
+      "static/chunks/3520.3b598679dc20dc79.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit\\dist\\esm\\src\\client\\appkit.js -> @reown/appkit-pay": {
+    "id": 90070,
+    "files": [
+      "static/chunks/70.903da54c4e7020d3.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit\\dist\\esm\\src\\client\\appkit.js -> @reown/appkit-scaffold-ui": {
+    "id": 2789,
+    "files": []
+  },
+  "node_modules\\@reown\\appkit\\dist\\esm\\src\\client\\appkit.js -> @reown/appkit-scaffold-ui/email": {
+    "id": 22094,
+    "files": [
+      "static/chunks/2094.f8f74f805a958fdc.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit\\dist\\esm\\src\\client\\appkit.js -> @reown/appkit-scaffold-ui/embedded-wallet": {
+    "id": 77354,
+    "files": [
+      "static/chunks/7354.51cf9d733f62303d.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit\\dist\\esm\\src\\client\\appkit.js -> @reown/appkit-scaffold-ui/onramp": {
+    "id": 84319,
+    "files": [
+      "static/chunks/4319.48b25dc06ce3925d.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit\\dist\\esm\\src\\client\\appkit.js -> @reown/appkit-scaffold-ui/pay-with-exchange": {
+    "id": 62420,
+    "files": [
+      "static/chunks/2420.c80513ba367f5412.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit\\dist\\esm\\src\\client\\appkit.js -> @reown/appkit-scaffold-ui/receive": {
+    "id": 94893,
+    "files": [
+      "static/chunks/4893.cc57c10cc15fb42c.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit\\dist\\esm\\src\\client\\appkit.js -> @reown/appkit-scaffold-ui/reown-authentication/data-capture": {
+    "id": 9018,
+    "files": [
+      "static/chunks/9018.a2df5c7e623e3337.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit\\dist\\esm\\src\\client\\appkit.js -> @reown/appkit-scaffold-ui/send": {
+    "id": 76985,
+    "files": [
+      "static/chunks/1272.1e155f7760fa53cc.js",
+      "static/chunks/6985.453256d75f56023b.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit\\dist\\esm\\src\\client\\appkit.js -> @reown/appkit-scaffold-ui/socials": {
+    "id": 8867,
+    "files": [
+      "static/chunks/8867.d44333fb28d367ff.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit\\dist\\esm\\src\\client\\appkit.js -> @reown/appkit-scaffold-ui/swaps": {
+    "id": 62523,
+    "files": [
+      "static/chunks/1272.1e155f7760fa53cc.js",
+      "static/chunks/2523.ba3a819c19e70471.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit\\dist\\esm\\src\\client\\appkit.js -> @reown/appkit-scaffold-ui/transactions": {
+    "id": 23227,
+    "files": [
+      "static/chunks/3227.f776441c538e48e4.js"
+    ]
+  },
+  "node_modules\\@reown\\appkit\\dist\\esm\\src\\client\\appkit.js -> @reown/appkit-scaffold-ui/w3m-modal": {
+    "id": 27767,
+    "files": [
+      "static/chunks/1272.1e155f7760fa53cc.js",
+      "static/chunks/7767.0aafbc22bca88e17.js"
+    ]
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\dist\\index.es.js -> @reown/appkit/core": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-controllers\\node_modules\\@walletconnect\\utils\\node_modules\\viem\\_esm\\actions\\public\\call.js -> ../../utils/ccip.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-controllers\\node_modules\\@walletconnect\\utils\\node_modules\\viem\\_esm\\utils\\rpc\\webSocket.js -> isows": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-controllers\\node_modules\\@walletconnect\\utils\\node_modules\\viem\\_esm\\utils\\signature\\recoverPublicKey.js -> @noble/curves/secp256k1": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/add.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/all-wallets.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/app-store.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/apple.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/arrow-bottom-circle.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/arrow-bottom.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/arrow-left.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/arrow-right.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/arrow-top.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/bank.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/browser.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/card.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/checkmark-bold.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/checkmark.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/chevron-bottom.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/chevron-left.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/chevron-right.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/chevron-top.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/chrome-store.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/clock.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/close.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/coinPlaceholder.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/compass.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/copy.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/cursor-transparent.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/cursor.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/desktop.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/disconnect.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/discord.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/etherscan.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/exclamation-triangle.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/extension.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/external-link.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/facebook.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/farcaster.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/filters.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/github.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/google.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/help-circle.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/id.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/image.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/info-circle.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/info.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/lightbulb.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/mail.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/mobile.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/more.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/network-placeholder.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/nftPlaceholder.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/off.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/play-store.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/plus.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/qr-code.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/recycle-horizontal.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/refresh.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/reown-logo.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/search.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/send.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/swapHorizontal.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/swapHorizontalBold.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/swapHorizontalMedium.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/swapHorizontalRoundedBold.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/swapVertical.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/telegram.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/three-dots.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/twitch.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/twitterIcon.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/verify-filled.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/verify.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/wallet-placeholder.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/wallet.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/walletconnect.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/warning-circle.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit-ui\\dist\\esm\\src\\components\\wui-icon\\index.js -> ../../assets/svg/x.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit\\dist\\esm\\src\\client\\appkit-core.js -> @reown/appkit-scaffold-ui/basic": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit\\dist\\esm\\src\\client\\appkit-core.js -> @reown/appkit-scaffold-ui/w3m-modal": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit\\node_modules\\@walletconnect\\utils\\node_modules\\viem\\_esm\\actions\\public\\call.js -> ../../utils/ccip.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit\\node_modules\\@walletconnect\\utils\\node_modules\\viem\\_esm\\utils\\rpc\\webSocket.js -> isows": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@reown\\appkit\\node_modules\\@walletconnect\\utils\\node_modules\\viem\\_esm\\utils\\signature\\recoverPublicKey.js -> @noble/curves/secp256k1": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@walletconnect\\utils\\node_modules\\viem\\_esm\\actions\\public\\call.js -> ../../utils/ccip.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@walletconnect\\utils\\node_modules\\viem\\_esm\\utils\\rpc\\webSocket.js -> isows": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\@walletconnect\\ethereum-provider\\node_modules\\@walletconnect\\utils\\node_modules\\viem\\_esm\\utils\\signature\\recoverPublicKey.js -> @noble/curves/secp256k1": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\viem\\_esm\\actions\\public\\call.js -> ../../utils/ccip.js": {
+    "id": 71735,
+    "files": [
+      "static/chunks/1735.384ac074ce4d298b.js"
+    ]
+  },
+  "node_modules\\viem\\_esm\\utils\\rpc\\webSocket.js -> isows": {
+    "id": 8759,
+    "files": []
+  },
+  "node_modules\\viem\\_esm\\utils\\signature\\recoverPublicKey.js -> @noble/curves/secp256k1": {
+    "id": 10846,
+    "files": [
+      "static/chunks/58-fe2b18b75c935912.js",
+      "static/chunks/846-581a3df87add5941.js"
+    ]
+  }
+}

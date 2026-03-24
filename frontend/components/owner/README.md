@@ -48,3 +48,6 @@ All components are ready to be integrated with:
 
 All owner features require wallet connection. The dashboard checks for connected wallet before rendering owner features.
 
+
+
+

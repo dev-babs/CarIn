@@ -1,6 +1,8 @@
 # CarIn Smart Contracts
 
-Smart contracts for the CarIn decentralized parking spot booking platform on Celo blockchain.
+Smart contracts for the CarIn blockchain.
+
+adding more functionality and updates on solidarity 
 
 ## Contracts
 
@@ -46,4 +48,7 @@ npm run deploy:alfajores
 - Uses OpenZeppelin contracts for security
 - Implements reentrancy guards
 - Access control for sensitive operations
+
+
+
 

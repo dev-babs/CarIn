@@ -6,7 +6,7 @@ Enhanced payment escrow contract for CarIn parking platform with comprehensive f
 
 ✅ **Multi-Token Support**: Native CELO, cUSD, and cEUR
 ✅ **Automatic Releases**: Time-based automatic escrow release
-✅ **Partial Refunds**: Split refunds between payer and payee
+✅ **Partial Refunds**: Split refunds
 ✅ **Dispute Resolution**: On-chain dispute filing and resolution
 ✅ **Expiration Handling**: Automatic refund for expired escrows
 ✅ **Security**: Reentrancy guards and SafeERC20

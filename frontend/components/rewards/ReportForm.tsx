@@ -127,9 +127,12 @@ export default function ReportForm({ spotId, onSuccess, onCancel }: ReportFormPr
       </div>
 
       <p className="text-sm text-gray-600">
-        * After submission, your report will be reviewed. If validated, you will receive {100} CARIN tokens as a reward.
+        * After submission, your report will be reviewed. If validated, you will receive {300} CARIN tokens as a reward.
       </p>
     </form>
   );
 }
+
+
+
 

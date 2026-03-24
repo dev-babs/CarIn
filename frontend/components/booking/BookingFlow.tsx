@@ -26,6 +26,7 @@ export default function BookingFlow({ spot, userAddress }: BookingFlowProps) {
   const [startTime, setStartTime] = useState<string>("");
   const [endTime, setEndTime] = useState<string>("");
   const [bookingId, setBookingId] = useState<string | null>(null);
+  const [signature, setSignature] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   const handleDateTimeSelect = (date: Date | null, start: string, end: string) => {
@@ -52,8 +53,17 @@ export default function BookingFlow({ spot, userAddress }: BookingFlowProps) {
     try {
       // TODO: Integrate with smart contracts
       // This will be handled in the transaction signing component
+      
+      // Simulate network delay
+      await new Promise(resolve => setTimeout(resolve, 2000));
+
       const mockBookingId = `booking_${Date.now()}`;
+      // Mock signature generation
+      const mockSignature = "0x" + Array.from({length: 64}, () => Math.floor(Math.random() * 16).toString(16)).join("");
+      
       setBookingId(mockBookingId);
+      setSignature(mockSignature);
+      setStep("confirmed");
     } catch (err: any) {
       setError(err.message || "Failed to create booking");
       setStep("summary");
@@ -61,7 +71,14 @@ export default function BookingFlow({ spot, userAddress }: BookingFlowProps) {
   };
 
   if (step === "confirmed" && bookingId) {
-    return <BookingConfirmation bookingId={bookingId} spot={spot} />;
+    return (
+      <BookingConfirmation 
+        bookingId={bookingId} 
+        spot={spot} 
+        signature={signature || undefined}
+        userAddress={userAddress}
+      />
+    );
   }
 
   return (
@@ -103,4 +120,5 @@ export default function BookingFlow({ spot, userAddress }: BookingFlowProps) {
     </div>
   );
 }
+
 

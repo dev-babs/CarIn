@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/disputes/page": "app/admin/disputes/page.js",
+  "/api/ipfs/upload/route": "app/api/ipfs/upload/route.js",
+  "/booking/[spotId]/page": "app/booking/[spotId]/page.js",
+  "/disputes/page": "app/disputes/page.js",
+  "/bookings/page": "app/bookings/page.js",
+  "/owner/page": "app/owner/page.js",
+  "/page": "app/page.js",
+  "/rewards/history/page": "app/rewards/history/page.js",
+  "/rewards/page": "app/rewards/page.js"
+}

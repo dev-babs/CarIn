@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import QRCode from "qrcode.react";
+import QRCodeDisplay from "./QRCodeDisplay";
 
 interface Booking {
   id: string;
@@ -14,6 +14,8 @@ interface Booking {
   status: "pending" | "confirmed" | "active" | "completed" | "cancelled";
   qrCode?: string;
   transactionHash?: string;
+  signature?: string;
+  signerAddress?: string;
 }
 
 interface BookingCardProps {
@@ -39,20 +41,20 @@ export default function BookingCard({ booking }: BookingCardProps) {
     }
   };
 
-  const qrValue = JSON.stringify({
-    bookingId: booking.id,
-    spotId: booking.spotId,
-    date: booking.date,
-  });
-
   return (
     <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
       <div className="flex justify-between items-start mb-4">
         <div>
           <h3 className="text-lg font-semibold">{booking.spotLocation}</h3>
-          <p className="text-sm text-gray-500">Booking #{booking.id.slice(-8)}</p>
+          <p className="text-sm text-gray-500">
+            Booking #{booking.id.slice(-8)}
+          </p>
         </div>
-        <span className={`px-3 py-1 rounded-full text-xs font-medium ${getStatusColor(booking.status)}`}>
+        <span
+          className={`px-3 py-1 rounded-full text-xs font-medium ${getStatusColor(
+            booking.status
+          )}`}
+        >
           {booking.status}
         </span>
       </div>
@@ -60,20 +62,28 @@ export default function BookingCard({ booking }: BookingCardProps) {
       <div className="space-y-2 mb-4">
         <div className="flex justify-between text-sm">
           <span className="text-gray-600">Date:</span>
-          <span className="font-medium">{new Date(booking.date).toLocaleDateString()}</span>
+          <span className="font-medium">
+            {new Date(booking.date).toLocaleDateString()}
+          </span>
         </div>
         <div className="flex justify-between text-sm">
           <span className="text-gray-600">Time:</span>
-          <span className="font-medium">{booking.startTime} - {booking.endTime}</span>
+          <span className="font-medium">
+            {booking.startTime} - {booking.endTime}
+          </span>
         </div>
         <div className="flex justify-between text-sm">
           <span className="text-gray-600">Cost:</span>
-          <span className="font-medium text-blue-600">{booking.totalCost} cUSD</span>
+          <span className="font-medium text-blue-600">
+            {booking.totalCost} cUSD
+          </span>
         </div>
         {booking.transactionHash && (
           <div className="flex justify-between text-xs">
             <span className="text-gray-500">TX:</span>
-            <span className="font-mono text-gray-500">{booking.transactionHash.slice(0, 10)}...</span>
+            <span className="font-mono text-gray-500">
+              {booking.transactionHash.slice(0, 10)}...
+            </span>
           </div>
         )}
       </div>
@@ -86,7 +96,7 @@ export default function BookingCard({ booking }: BookingCardProps) {
           {showQR ? "Hide" : "Show"} QR Code
         </button>
         <button
-          onClick={() => window.location.href = `/booking/${booking.spotId}`}
+          onClick={() => (window.location.href = `/booking/${booking.spotId}`)}
           className="px-4 py-2 text-sm border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
         >
           View Details
@@ -95,13 +105,20 @@ export default function BookingCard({ booking }: BookingCardProps) {
 
       {showQR && (
         <div className="mt-4 pt-4 border-t text-center">
-          <p className="text-sm text-gray-600 mb-3">Scan QR Code for Entry</p>
-          <div className="bg-white p-4 rounded-lg inline-block border-2 border-gray-200">
-            <QRCode value={qrValue} size={150} />
+          <div className="flex justify-center">
+            <QRCodeDisplay
+              bookingId={booking.id}
+              spotId={booking.spotId}
+              spotLocation={booking.spotLocation}
+              signature={booking.signature}
+              signerAddress={booking.signerAddress}
+              timestamp={new Date(booking.date).getTime()}
+            />
           </div>
         </div>
       )}
     </div>
   );
 }
+
 

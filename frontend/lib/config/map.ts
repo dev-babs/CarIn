@@ -40,3 +40,6 @@ export function hasGoogleMapsApiKey(): boolean {
   return !!mapConfig.googleMapsApiKey;
 }
 
+
+
+

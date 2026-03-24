@@ -60,3 +60,6 @@ export function useSpotDetails(spotId: string) {
   };
 }
 
+
+
+

@@ -6,8 +6,6 @@ interface WalletConnectProps {
 
 export default function WalletConnect({ onConnect }: WalletConnectProps) {
   const handleConnect = async () => {
-    // Placeholder - will be replaced with actual Reown AppKit integration
-    // For now, simulate connection
     const mockAddress = "0x1234567890123456789012345678901234567890";
     onConnect(mockAddress);
   };
@@ -21,4 +19,7 @@ export default function WalletConnect({ onConnect }: WalletConnectProps) {
     </button>
   );
 }
+
+
+
 

@@ -1,0 +1,1 @@
+"use strict";exports.id=891,exports.ids=[891],exports.modules={8851:(e,t,i)=>{i.d(t,{v:()=>r});var l=i(30326),n=i(2423);function r(e){let{key:t="public",name:i="Public Client"}=e;return(0,l.e)({...e,key:t,name:i,type:"publicClient"}).extend(n.I)}},80891:(e,t,i)=>{i.d(t,{createPublicClient:()=>l.v,defineChain:()=>r.a,http:()=>n.d});var l=i(8851),n=i(89259),r=i(2806)}};

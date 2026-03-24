@@ -25,3 +25,6 @@ export function getParkingSpotContract(
   return new ethers.Contract(address, PARKING_SPOT_ABI, provider);
 }
 
+
+
+

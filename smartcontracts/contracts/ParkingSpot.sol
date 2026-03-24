@@ -58,6 +58,8 @@ contract ParkingSpot is Ownable, ReentrancyGuard {
         uint256 startTime;       // Slot 3
         uint256 endTime;         // Slot 4
         uint256 totalPrice;      // Slot 5
+        uint256 checkInTime;     // Slot 6
+        uint256 checkOutTime;    // Slot 7
         bool isActive;           // Packed with user in Slot 2
         bool isCancelled;        // Packed with user in Slot 2
         bool isCompleted;        // Packed with user in Slot 2
@@ -108,6 +110,18 @@ contract ParkingSpot is Ownable, ReentrancyGuard {
         uint256 indexed spotId,
         address indexed previousOwner,
         address indexed newOwner
+    );
+    event CheckInRecorded(
+        uint256 indexed bookingId,
+        uint256 indexed spotId,
+        address indexed user,
+        uint256 checkInTime
+    );
+    event CheckOutRecorded(
+        uint256 indexed bookingId,
+        uint256 indexed spotId,
+        address indexed user,
+        uint256 checkOutTime
     );
 
     constructor() Ownable(msg.sender) {}
@@ -223,6 +237,8 @@ contract ParkingSpot is Ownable, ReentrancyGuard {
             startTime: startTime,
             endTime: endTime,
             totalPrice: totalPrice,
+            checkInTime: 0,
+            checkOutTime: 0,
             isActive: true,
             isCancelled: false,
             isCompleted: false
@@ -411,6 +427,46 @@ contract ParkingSpot is Ownable, ReentrancyGuard {
      */
     function getRenterBookings(address renter) external view returns (uint256[] memory) {
         return userBookings[renter];
+    }
+
+    /**
+     * @notice Record check-in for a booking (can be called by owner or user)
+     * @param bookingId The booking ID
+     */
+    function recordCheckIn(uint256 bookingId) external nonReentrant {
+        Booking storage booking = bookings[bookingId];
+        if (booking.bookingId == 0) {
+            revert SpotDoesNotExist();
+        }
+        require(
+            msg.sender == booking.user || msg.sender == spots[booking.spotId].owner,
+            "Not authorized to record check-in"
+        );
+        require(booking.checkInTime == 0, "Check-in already recorded");
+        require(!booking.isCancelled, "Cannot check in to cancelled booking");
+
+        booking.checkInTime = block.timestamp;
+        emit CheckInRecorded(bookingId, booking.spotId, booking.user, block.timestamp);
+    }
+
+    /**
+     * @notice Record check-out for a booking (can be called by owner or user)
+     * @param bookingId The booking ID
+     */
+    function recordCheckOut(uint256 bookingId) external nonReentrant {
+        Booking storage booking = bookings[bookingId];
+        if (booking.bookingId == 0) {
+            revert SpotDoesNotExist();
+        }
+        require(
+            msg.sender == booking.user || msg.sender == spots[booking.spotId].owner,
+            "Not authorized to record check-out"
+        );
+        require(booking.checkInTime > 0, "Check-in not recorded");
+        require(booking.checkOutTime == 0, "Check-out already recorded");
+
+        booking.checkOutTime = block.timestamp;
+        emit CheckOutRecorded(bookingId, booking.spotId, booking.user, block.timestamp);
     }
 }
 

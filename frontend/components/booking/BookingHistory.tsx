@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import BookingCard from "./BookingCard";
+import BookingFilters from "./BookingFilters";
 
 interface Booking {
   id: string;
@@ -14,6 +15,8 @@ interface Booking {
   status: "pending" | "confirmed" | "active" | "completed" | "cancelled";
   qrCode?: string;
   transactionHash?: string;
+  signature?: string;
+  signerAddress?: string;
 }
 
 interface BookingHistoryProps {
@@ -24,11 +27,54 @@ export default function BookingHistory({ userAddress }: BookingHistoryProps) {
   const [bookings, setBookings] = useState<Booking[]>([]);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState<"all" | "pending" | "active" | "completed">("all");
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     fetchBookings();
   }, [userAddress]);
 
+  const fetchBookings = async () => {
+    setLoading(true);
+    try {
+      // Mock data for now - replace with smart contract/API calls
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      
+      const mockBookings: Booking[] = [
+        {
+          id: "booking_123456789",
+          spotId: "spot_1",
+          spotLocation: "123 Main St, San Francisco, CA",
+          date: new Date().toISOString(),
+          startTime: "10:00",
+          endTime: "14:00",
+          totalCost: "15.00",
+          status: "confirmed",
+          signature: "0x789...signature",
+          signerAddress: userAddress || "0x123...user",
+          transactionHash: "0xabc...tx"
+        },
+        {
+          id: "booking_987654321",
+          spotId: "spot_2",
+          spotLocation: "456 Market St, San Francisco, CA",
+          date: new Date(Date.now() - 86400000).toISOString(),
+          startTime: "09:00",
+          endTime: "11:00",
+          totalCost: "10.00",
+          status: "completed",
+          signature: "0x456...signature",
+          signerAddress: userAddress || "0x123...user",
+          transactionHash: "0xdef...tx"
+        }
+      ];
+      
+      setBookings(mockBookings);
+    } catch (error) {
+      console.error("Failed to fetch bookings:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const filteredBookings = bookings.filter((booking) => {
     // Filter by status
@@ -82,4 +128,3 @@ export default function BookingHistory({ userAddress }: BookingHistoryProps) {
     </div>
   );
 }
-
